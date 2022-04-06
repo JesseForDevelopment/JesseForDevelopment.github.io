@@ -1,5 +1,6 @@
 $mainColor:rgb(78, 78, 152);
-
+$background-alt:#eee;
+$heading:rgb(44, 44, 44);
 
 #quotes {
     padding: 3% 8%;
@@ -31,6 +32,23 @@ $mainColor:rgb(78, 78, 152);
 
 #skills{
     padding: 3% 8%;
+    text-align: center;
+    ul{
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 800px;
+    }
+    li {
+        display: inline-block;
+        margin: 7px;
+        padding: 5px 10px;
+        color: $heading;
+        background: darken($background-alt, 5%);
+        list-style: none;
+        cursor: default;
+        font-size: 1.2em;
+    }
 }
 footer{
     padding: 3% 0;
