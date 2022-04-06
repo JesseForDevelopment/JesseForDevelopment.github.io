@@ -5,7 +5,12 @@ $mainColor:rgb(78, 78, 152);
     padding: 3% 8%;
 }
 
-#aboutMe{
+#quote{
+    max-width: 600px;
+    background-color: 0.85*$mainColor;
+}
+
+#cover{
     min-height: 500px;
     background-color: $mainColor;
     color: #fff;
@@ -20,9 +25,15 @@ $mainColor:rgb(78, 78, 152);
     }
 }
 
+#aboutMe{
+    background-color: 2*$mainColor;
+}
+
 #skills{
     padding: 3% 8%;
 }
 footer{
     padding: 3% 0;
+    background-color: 0.6*$mainColor;
+    color:#fff;
 }

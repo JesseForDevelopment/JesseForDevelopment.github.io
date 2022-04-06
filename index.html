@@ -27,45 +27,58 @@
     </nav>
   </div>
 
-  <div class="container-fluid text-center p-5" id="aboutMe">
-    <div class="p-4">
-      <h1 id="myName">
-        Jesse Chan
-      </h1>
-      <h2  id="myDes">
-        Passion on Web Development & AI
-      </h2>
+  <div class="container-fluid p-5" id="cover">
+    <div class="text-center pb-5">
+      <div class="p-4">
+        <h1 id="myName">
+          Jesse Chan
+        </h1>
+        <h2  id="myDes">
+          Passion on Web Development & AI
+        </h2>
+      </div>
+      
+      <hr class="container w-50">
+      <p class="lead">
+        South China University of Technology
+      </p>
+      <button class="btn btn-primary btn-lg">
+        My Resume
+      </button>
     </div>
     
-    <hr class="container w-50">
-    <p class="lead">
-      South China University of Technology
-    </p>
-    <button class="btn btn-primary btn-lg">
-      My Resume
-    </button>
+    <div class="mx-auto w-60 p-4" id="quote">
+      <p id="quote-box"></p>
+      <p id="author"></p>
+      <button class="btn btn-secondary me-auto" id="quoteButt">Quotes</button>
+    </div>
   </div>
 
-  <div class="container-fluid" style="background-color: rgb(241, 226, 255); height:100%">
-    <!-- quotes -->
-    <div class="container" id="quotes">
-      <div class="card">
-        <div class="card-header text-center">
-          <button class="btn btn-primary" id="quoteButt">Quotes</button>
+
+  <!-- About -->
+  <div class="container-fluid" id="aboutMe">
+    <div class="container">
+      <div class="row">
+        <div class="col my-auto">
+          <h1>
+            About Me
+          </h1>
+          My Chinese name is Kaiquan Chen. Currently I'm an undergraduate student from South China University of Technology.
+          My major is Mechanical Engineering, however I have strong passion on Web Development and Deep Learning, so I am learning them myself.
+          <br>
+          I have a rapid learning rate on subjects I love. This website along with some small projects are built within several weeks. I have written two research papers on neural network and robotics and submitted them to IEEE TNNLS in the last semester.
+          <br>
+          I want to leave some footprints on the history.
         </div>
-        <div class="card-body" id="cardBody">
-          <blockquote class="blockquote mb-0">
-            <p id="quote-box"></p>
-            <footer class="blockquote-footer" id="author"></footer>
-          </blockquote>
+        <div class="col text-center">
+          <img src="img/eye.png"  alt="">
         </div>
       </div>
     </div>
+    
+    
   </div>
-
-  <!-- About -->
-  
-  <!-- Skills -->
+  <!-- What I Do -->
   <div class="container" id="skills">
     <div class="row">
       <div class="col text-center">
@@ -103,6 +116,9 @@
     </div>
   </div>
   <!-- Projects -->
+  <div class="container" id="projects">
+
+  </div>
   <!-- Contact -->
   <!-- Copyright -->
   <footer class="container-fluid font-weight-bold text-center">

@@ -2,22 +2,31 @@
   padding: 3% 8%;
 }
 
-#aboutMe {
+#quote {
+  max-width: 600px;
+  background-color: #424281;
+}
+
+#cover {
   min-height: 500px;
   background-color: #4e4e98;
   color: #fff;
 }
 
-#aboutMe #myName {
+#cover #myName {
   font-size: 7vw;
 }
 
-#aboutMe #myDes {
+#cover #myDes {
   font-size: 2.8vw;
 }
 
-#aboutMe hr {
+#cover hr {
   border: 1px solid black;
+}
+
+#aboutMe {
+  background-color: #9c9cff;
 }
 
 #skills {
@@ -26,5 +35,7 @@
 
 footer {
   padding: 3% 0;
+  background-color: #2f2f5b;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
