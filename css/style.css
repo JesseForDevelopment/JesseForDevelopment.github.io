@@ -2,8 +2,22 @@
   padding: 3% 8%;
 }
 
-#cardBody {
-  height: 150px;
+#aboutMe {
+  min-height: 500px;
+  background-color: #4e4e98;
+  color: #fff;
+}
+
+#aboutMe #myName {
+  font-size: 7vw;
+}
+
+#aboutMe #myDes {
+  font-size: 2.8vw;
+}
+
+#aboutMe hr {
+  border: 1px solid black;
 }
 
 #skills {
