@@ -4,19 +4,27 @@
 
 body {
   margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 nav {
   position: top;
+  top: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #23008b;
+  background-color: #392379;
   color: white;
-  padding: 5px 50px;
+  padding: 10px 50px;
 }
 
 nav #nav-left {
@@ -48,13 +56,79 @@ nav ul {
 }
 
 nav ul li {
-  background-color: #1b006c;
+  background-color: #140c2a;
   border-radius: 10%;
   padding: 10px;
   list-style: none;
 }
 
 nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#face {
+  background-color: #4c2ea1;
+  color: white;
+  padding: 80px 0;
+  height: 60vh;
+}
+
+#face #description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#face hr {
+  max-width: 600px;
+  height: 3px;
+  color: white;
+  background-color: white;
+  border: none;
+}
+
+#face #info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#face #resume {
+  padding: 10px;
+  background-color: #0077d2;
+  border-radius: 20%;
+}
+
+#face #resume a {
   text-decoration: none;
   color: white;
 }
