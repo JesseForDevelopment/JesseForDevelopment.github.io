@@ -46,8 +46,8 @@ ul{
 #face{
     background-color: lighten($color: $bgColor, $amount: 10);
     color: $textColor;
-    padding: 80px 0;
-    height:60vh;
+    padding: 70px 0;
+    height:80vh;
     #description{
         display: flex;
         flex-direction: column;
@@ -80,5 +80,17 @@ ul{
             color: $textColor;
         }
     }
+    #sites{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px;
+    }
 
+  }
+  footer{
+    background-color: rgb(64, 64, 64);
+    color:$textColor;
+    font-weight: bold;
+    text-align: center;
   }
