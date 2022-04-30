@@ -1,60 +1,61 @@
-#quotes {
-  padding: 3% 8%;
+* {
+  font-family: 'Roboto', sans-serif;
 }
 
-#quote {
-  max-width: 600px;
-  background-color: #424281;
+body {
+  margin: 0;
 }
 
-#cover {
-  min-height: 500px;
-  background-color: #4e4e98;
-  color: #fff;
+nav {
+  position: top;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #23008b;
+  color: white;
+  padding: 5px 50px;
 }
 
-#cover #myName {
-  font-size: 7vw;
+nav #nav-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
 }
 
-#cover #myDes {
-  font-size: 2.8vw;
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
 }
 
-#cover hr {
-  border: 1px solid black;
-}
-
-#aboutMe {
-  background-color: #9c9cff;
-}
-
-#skills {
-  padding: 3% 8%;
-  text-align: center;
-}
-
-#skills ul {
-  display: block;
-  margin: 0 auto;
-  padding: 0;
-  max-width: 800px;
-}
-
-#skills li {
-  display: inline-block;
-  margin: 7px;
-  padding: 5px 10px;
-  color: #2c2c2c;
-  background: #e1e1e1;
+nav ul li {
+  background-color: #1b006c;
+  border-radius: 10%;
+  padding: 10px;
   list-style: none;
-  cursor: default;
-  font-size: 1.2em;
 }
 
-footer {
-  padding: 3% 0;
-  background-color: #2f2f5b;
-  color: #fff;
+nav ul li a {
+  text-decoration: none;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

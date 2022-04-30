@@ -1,146 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="img/eye.ico">
-  <title>Home</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="css/style.css">
-  <!-- Google fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
-    rel="stylesheet" type="text/css" />
-
-
-</head>
-
-<body>
-  <!-- Navigation -->
-  <div id="navBar">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
-      <div class="container">
-        <a class="navbar-brand" href="#"><img src="img/eye.ico" width="30" height="30"> JesseForDevelopment</a>
-      </div>
-    </nav>
-  </div>
-
-  <div class="container-fluid p-5" id="cover">
-    <div class="text-center pb-5">
-      <div class="p-4">
-        <h1 id="myName">
-          Jesse Chan
-        </h1>
-        <h2 id="myDes">
-          Passion on Web Development & AI
-        </h2>
-      </div>
-
-      <hr class="container w-50">
-      <p class="lead">
-        South China University of Technology
-      </p>
-      <button class="btn btn-primary btn-lg">
-        My Resume
-      </button>
-    </div>
-
-    <div class="mx-auto w-60 p-4" id="quote">
-      <p id="quote-box"></p>
-      <p id="author"></p>
-      <button class="btn btn-secondary me-auto" id="quoteButt">Quotes</button>
-    </div>
-  </div>
-
-
-  <!-- About -->
-  <div class="container-fluid" id="aboutMe">
-    <div class="container">
-      <div class="row">
-        <div class="col my-auto">
-          <h1>
-            About Me
-          </h1>
-          I'm an undergraduate student from South China University of
-          Technology.
-          My major is Mechanical Engineering, however I have strong passion on Web Development and Deep Learning, so I
-          am learning them myself.
-          <br>
-          I have a rapid learning rate on subjects I love. This website along with some small projects are built within
-          several weeks. I have written two research papers on neural network and robotics and submitted them to IEEE
-          TNNLS in the last semester.
-          <br>
-          I want to leave some footprints on the history.
-        </div>
-        <div class="col text-center">
-          <img src="img/eye.png" alt="">
-        </div>
-      </div>
-    </div>
-
-
-  </div>
-  <!-- What I Do -->
-  <div class="container-fluid" id="skills">
-    <div class="row">
-      <div class="col">
-        <h2>Languages & Libraries</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>SASS/SCSS</li>
-          <li>Bootstrap</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>jQuery</li>
-          <li>Tex</li>
-          <li>Python</li>
-          <li>Sci-Kit</li>
-          <li>TensorFlow</li>
-        </ul>
-      </div>
-      <div class="col">
-        <h2>Active Platforms</h2>
-        <ul>
-          <li><a href="https://github.com/JesseForDevelopment">Github</a></li>
-          <li><a href="https://stackoverflow.com/users/17291784/jessefordevelopment">StackOverflow</a></li>
-          <li><a href="https://www.freecodecamp.org/jesse_for_development">FreeCodeCamp</a> </li>
-          <li><a href="https://leetcode.com/JesseForDevelopment/">LeetCode</a></li>
-          <li><a href="https://www.kaggle.com/jesse2333">Kaggle</a> </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <!-- Projects -->
-  <div class="container" id="projects">
-
-  </div>
-  <!-- Contact -->
-  <!-- Copyright -->
-  <footer class="container-fluid font-weight-bold text-center">
-    <div class="row">
-      <div class="col">
-        Copyright &copy 2022, Jesse Chan
-      </div>
-      <div class="col">
-        Made with Bootstrap
-      </div>
-    </div>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
   <script src="js/quotes.js"></script>
-</body>
+  <title>Jesse Chan's Page</title>
+</head>
+<body>
+  <nav>
+    <div id="nav-left">
+      <div id="logo">
+        <img src="img/eye.ico" alt="" width="30px">
+      </div>
+      <div id="title">
+        <h1>JesseForDevelopment</h1>
+      </div>
+    </div>
+    <div id="nav-right">
+      <ul id="links">
+        <li><a href="#aboutMe">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section id="facePage">
+    <h1>Jesse Chan</h1>
+    <p>Passion on Web Development & Machine Learning</p>
+    <hr>
+    <h2>South China University of Technology</h2>
+    <!-- github, email, linkedin link -->
+  </section>
+  <section id="aboutMe">
 
+  </section>
+  <section id="skills">
+
+  </section>
+  <section id="projects">
+    <div id="papers">
+
+    </div>
+    <div id="webDev">
+
+    </div>
+    <div id="machineLearning">
+
+    </div>
+  </section>
+  <footer>
+    Copyright &copyJesse Chan 2022
+  </footer>
+</body>
 </html>

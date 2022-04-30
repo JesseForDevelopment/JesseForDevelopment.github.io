@@ -1,57 +1,41 @@
-$mainColor:rgb(78, 78, 152);
-$background-alt:#eee;
-$heading:rgb(44, 44, 44);
+$textColor:white;
+$bgColor:rgb(35, 0, 139);
 
-#quotes {
-    padding: 3% 8%;
+*{  
+    font-family: 'Roboto', sans-serif;
+  }
+body{
+    margin: 0;
 }
+  
+nav{
+    position: top;
+    display: flex;
+    justify-content: space-between;
+    background-color: $bgColor;
+    color: $textColor;
+    padding: 10px 50px;
+    #nav-left{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
 
-#quote{
-    max-width: 600px;
-    background-color: 0.85*$mainColor;
 }
-
-#cover{
-    min-height: 500px;
-    background-color: $mainColor;
-    color: #fff;
-    #myName{
-        font-size: 7vw;
-    }
-    #myDes{
-        font-size: 0.4*7vw;
-    }
-    hr{
-        border: 1px solid black;
-    }
-}
-
-#aboutMe{
-    background-color: 2*$mainColor;
-}
-
-#skills{
-    padding: 3% 8%;
-    text-align: center;
-    ul{
-        display: block;
-        margin: 0 auto;
-        padding: 0;
-        max-width: 800px;
-    }
-    li {
-        display: inline-block;
-        margin: 7px;
-        padding: 5px 10px;
-        color: $heading;
-        background: darken($background-alt, 5%);
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    li{ 
+        background-color: darken($color: $bgColor, $amount: 6);
+        border-radius: 10%;
+        padding: 10px;
         list-style: none;
-        cursor: default;
-        font-size: 1.2em;
+        a{
+            text-decoration: none;
+            color:$textColor;
+        }
     }
 }
-footer{
-    padding: 3% 0;
-    background-color: 0.6*$mainColor;
-    color:#fff;
 }
