@@ -47,7 +47,6 @@ ul{
     background-color: lighten($color: $bgColor, $amount: 10);
     color: $textColor;
     padding: 70px 0;
-    height:80vh;
     #description{
         display: flex;
         flex-direction: column;
@@ -62,6 +61,7 @@ ul{
         color:$textColor;
         background-color: $textColor;
         border: none;
+        margin-top: 40px;
     }
     #info{
         display: flex;
@@ -88,6 +88,14 @@ ul{
     }
 
   }
+
+#about{
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 0;
+    align-items: center;
+  }
+
   footer{
     background-color: rgb(64, 64, 64);
     color:$textColor;

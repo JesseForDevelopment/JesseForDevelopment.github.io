@@ -71,7 +71,6 @@ nav ul li a {
   background-color: #4c2ea1;
   color: white;
   padding: 70px 0;
-  height: 80vh;
 }
 
 #face #description {
@@ -100,6 +99,7 @@ nav ul li a {
   color: white;
   background-color: white;
   border: none;
+  margin-top: 40px;
 }
 
 #face #info {
@@ -145,6 +145,20 @@ nav ul li a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 30px;
+}
+
+#about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 footer {
