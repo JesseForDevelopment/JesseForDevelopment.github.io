@@ -157,8 +157,8 @@ nav ul li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 60vh;
   background-color: #21719c;
+  padding: 5% 0;
 }
 
 #about #aboutLeft {
